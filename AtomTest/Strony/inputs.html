@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Inputs</title>
+  </head>
+  <body>
+    <main>
+      <h1>Testing inputs</h1>
+        <nav>
+            <h4>Nawigacja:</h4>
+            <ol>
+              <li><a href="#checkbox">Checkbox</a> </li>
+              <li><a href="#valueSlider">valueSlider</a> </li>
+              <li><a href="#datalist">datalist</a> </li>
+              <li><a href="#textarea">textarea</a> </li>
+              <li><a href="#radios">radios</a> </li>
+            </ol>
+          </nav>
+        <form action="" method="POST"> <!-- dodać funckję akcji !!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+          <ol>
+
+
+            <li><h3 id="checkbox">Checkbox</h3></li>
+              <input type="checkbox" name="checkbox1" id="tak">
+              <label for="tak">Tak</label>
+              <input type="checkbox" name="checkbox2" value="nie">
+              <label for="nie">Nie</label>
+
+            <li><h3 id="valueSlider">Value slider</h3></li>
+              <label for="slider"></label>
+              <input type="range" name="slider" id="slider" value="3" min="0" max="10">
+
+            <li><h3 id="datalist">Datalist</h3></li>
+              <input type="text" name="miasta" id="miasta" list="listaMiast" placeholder="miasto">
+
+              <datalist id="listaMiast">
+                <option value="Poznań"></option>
+                <option value="Warszawa"></option>
+                <option value="Szczyrk"></option>
+                <option value="Berlin"></option>
+                <option value="LA"></option>
+
+              </datalist>
+
+            <li><h3 id="textarea">Textarea</h3></li>
+              <label for="textarea"></label>
+                <textarea name="textarea" id="textarea" rows="8" cols="80"></textarea>
+
+            <li><h3 id="radios">Radio buttons</h3></li>
+              <p>Te dwa są wspólne</p>
+              <label for="radio1">Radio 1</label>
+              <input type="radio" name="radio" id="radio1">
+              <label for="radio2">Radio 2</label>
+              <input type="radio" name="radio" id="radio2">
+              <p>Te dwa są różne</p>
+              <label for="radioDif1">RadioDif 1</label>
+              <input type="radio" name="radioDif" id="radioDif1">
+              <label for="radioDif2">RadioDif 2</label>
+              <input type="radio" name="radioDifTwo" id="radioDif2">
+          </ol>
+        </form>
+      </main>
+      <footer>
+        <p><a href="../Main Index/index.html">Home</a></p>
+      </footer>
+  </body>
+</html>
