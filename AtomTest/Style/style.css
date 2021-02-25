@@ -1,5 +1,79 @@
-body {
+h4{
+  font-size: 25px;
+  font-family: fantasy;
+  text-align: left;
+}
 
-  background-color: purple;
-  background-image: url(https://images.photowall.com/products/59549/pale-mountain-silhouettes.jpg?h=699&q=85);
+a{
+  color: rgb(245, 208, 75);
+}
+
+.pMod p{
+  font-family: monospace;
+  text-align: center;
+}
+
+.pMod2 p{
+  font-family: fantasy;
+
+}
+
+.listFont li{
+
+  font-size: 20px;
+  font-family: fantasy;
+}
+
+.fontSetup h1 {
+
+  font-weight: bold;
+  font-family: fantasy;
+  font-size: 50px;
+  text-align: center;
+}
+
+.fontSetup2 h3{
+  font-weight: normal;
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: center;
+}
+
+.fontSetup3 h3{
+  font-weight: normal;
+  font-size: 20px;
+  font-family: fantasy;
+  text-align: left;
+}
+
+.bottomNav a{
+  font-family: monospace;
+  color: black;
+  font-size: 20px;
+  text-align: left;
+}
+
+.navigationStyle{
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 30px;
+  font-weight: 100;
+  text-align: left;
+  color: black;
+}
+
+.navigationStyle2{
+  font-family: fantasy;
+  font-weight: 100;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  color: black;
+}
+
+.background {
+
+  /*background-image: url(https://images.photowall.com/products/59549/pale-mountain-silhouettes.jpg?h=699&q=85);*/
+  background-image: url("../Grafika/mountain.jpg");
+  background-size: cover;
 }
