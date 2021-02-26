@@ -64,6 +64,14 @@ a{
   color: black;
 }
 
+#home{
+  border-top: 3px solid rgb(245, 208, 75);
+  border-bottom: 3px solid rgb(245, 208, 75);
+  padding: 1px 1px 20px 1px;
+  width: 400px;
+  margin: 0 auto;
+}
+
 .navigationStyle2{
   font-family: fantasy;
   font-weight: 100;
