@@ -4,8 +4,6 @@ h4{
   text-align: left;
 }
 
-li{}
-
 a{
   color: rgb(245, 208, 75);
 }
@@ -60,9 +58,19 @@ a{
   font-weight: 100;
   font-size: 30px;
   font-weight: 100;
-  text-align: left;
+  text-align: center;
   color: black;
 }
+
+.navigationStyle h4{
+  text-align: center;
+}
+
+.navigationStyle li{
+  display: flex;
+ justify-content: center;
+}
+
 
 #home{
   border-top: 6px solid rgb(245, 208, 75);
