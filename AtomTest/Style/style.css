@@ -1,12 +1,62 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dla stworzenia kolorowych boxów na stronie \
+  i dla ich przesuwania w dowolne miejsce na tej stronie :D */
+.box{
+  width: 200px;
+  height: 150px;
+  /* display: none; */
+  position: fixed;
+  left: 150px;
+  bottom: 200px;
+  z-index: 1;
+  display: none;
+}
+
+.websiteHeighter{
+  height: 300px;
+  opacity: 0.3;
+  border: solid 4px black;
+  background-color: black;
+  position: relative;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+footer{
+  height: 20px;
+  position: relative;
+  top: 200px;
+}
+
+
 h4{
   font-size: 25px;
   font-family: fantasy;
-  text-align: left;
+  /* text-align: left; */
+}
+
+h5{
+  z-index: 3;
+  font-family: fantasy;
+  font-weight: 1;
+  color: rgb(245, 208, 75);
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+
+  top: 150px;
 }
 
 a{
   color: rgb(245, 208, 75);
+
 }
+
 
 .pMod p{
   font-family: monospace;
@@ -46,6 +96,12 @@ a{
   text-align: left;
 }
 
+.bottomHeight{
+  height: 50px;
+  /* background-color: red; */
+
+}
+
 .bottomNav a{
   font-family: monospace;
   color: black;
@@ -53,22 +109,36 @@ a{
   text-align: left;
 }
 
-.navigationStyle{
+header{
   font-family: fantasy;
   font-weight: 100;
   font-size: 30px;
-  font-weight: 100;
   text-align: center;
+  text-transform: uppercase;
   color: black;
+  padding-top: 5px;
+
+  width: 100%;
+  height: 90px;
+  margin: 0 auto;
+  background-color: #E7970D;
+  border-top: solid 4px black;
+  border-bottom: solid 4px black;
+
+  position: fixed;
+  display: inline-block;
+  z-index: 10;
+  /* visibility: hidden; */
 }
 
-.navigationStyle h4{
+header h4{
   text-align: center;
 }
 
-.navigationStyle li{
-  display: flex;
- justify-content: center;
+header li{
+   display: inline-block;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 
@@ -77,7 +147,38 @@ a{
   border-bottom: 6px solid rgb(245, 208, 75);
   padding: 1px 1px 20px 1px;
   width: 400px;
+  min-width: 50px;
+  max-width: 400px;
   margin: 0 auto;
+
+  position: relative;
+  top: 180px;
+
+}
+
+article{
+  position: relative;
+  top: 200px;
+}
+
+/* funkcje #testy i .notka dodana na potrzeby
+sprawdzenia min i max szerokosci okna po zmianie
+rozmiaru okna przegladarki */
+
+#testy{
+  margin: 0 auto;
+  min-width: 100px;
+  max-width: 200px;
+  text-align: center;
+}
+
+.notka{
+  padding-top: 11px;
+  padding-bottom: 3px;
+  margin: 0 auto;
+  min-width: 200px;
+  max-width: 300px;
+  opacity: 0.5;
 }
 
 .navigationStyle2{
@@ -93,5 +194,9 @@ a{
 
   /*background-image: url(https://images.photowall.com/products/59549/pale-mountain-silhouettes.jpg?h=699&q=85);*/
   background-image: url("../Grafika/mountain.jpg");
+  background-repeat: no-repeat;
+
   background-size: cover;
+  min-height: 300px;
+  max-height: 1000px;
 }
