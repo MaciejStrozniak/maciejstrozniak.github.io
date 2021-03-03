@@ -15,6 +15,7 @@ header{
   text-align: center;
   padding-top: 14px;
 
+  opacity: 1;
   top: 20px;
   border-top: solid 4px black;
   border-bottom: solid 4px black;
@@ -63,15 +64,18 @@ span{
 a{
   color: black;
 }
-
+/*
 .tlo{
   background-color: hsla(48, 53%, 75%, 0.53);
-}
+} */
 
 .contactSpacing{
   height: 15px;
 }
 
 .sidePic{
-  background-image: url();
+  background-image: url("../Grafika/contactGraphic.jpg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  z-index: 1;
 }
