@@ -40,10 +40,15 @@ h4{
   /* text-align: left; */
 }
 
+/* font-weight standardowe wartości:
+300 light
+400 normal/ default
+700 bold */
+
 h5{
   z-index: 3;
   font-family: fantasy;
-  font-weight: 1;
+  font-weight: 100;
   color: rgb(245, 208, 75);
   text-transform: uppercase;
   text-align: center;
