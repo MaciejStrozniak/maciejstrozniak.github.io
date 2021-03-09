@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-
-/* greek */
-
 header{
   font-family: Roboto;
   font-size: 23px;
@@ -28,7 +25,7 @@ header{
   background-color: hsla(48, 79%, 47%, 0.79);
 }
 
-section{
+section.contact{
   font-size: 20px;
   font-family: Roboto;
 
@@ -55,6 +52,7 @@ font-family: Roboto;
 p{
   padding-top: 37px;
   height: 100px;
+  /* display: inline-flex; */
 }
 
 span{
@@ -78,4 +76,34 @@ a{
   background-repeat: no-repeat;
   background-size: auto;
   z-index: 1;
+}
+
+.flexContainer{
+  position: relative;
+  top: 155px;
+  height: 250px;
+  max-width: 880px;
+  margin: 0 auto;
+  background-color: lightgrey;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.flexTest{
+  background-color: aquamarine;
+  text-align: center;
+  border: solid 1px black;
+  display: block;
+  height: 100px;
+  max-width: 400px;
+  max-height: 200px;
+  flex-grow: 1;
+  /* display: inline-block; */
+}
+
+#flex .flexTest{
+  font-family: Roboto;
 }
