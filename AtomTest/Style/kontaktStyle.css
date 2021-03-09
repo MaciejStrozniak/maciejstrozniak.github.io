@@ -12,6 +12,8 @@ header{
   text-align: center;
   padding-top: 14px;
 
+  z-index: 2;
+
   opacity: 1;
   top: 20px;
   border-top: solid 4px black;
@@ -75,13 +77,20 @@ a{
   background-image: url("../Grafika/contactGraphic.jpg");
   background-repeat: no-repeat;
   background-size: auto;
-  z-index: 1;
+  z-index: 0;
+  width: 3000px;
+  min-width: 1000px;
+  min-height: 1000px;
+  max-height: 4000px;
+  position: absolute;
+  display: flex;
+
 }
 
 .flexContainer{
   position: relative;
   top: 155px;
-  height: 250px;
+  min-height: 250px;
   max-width: 880px;
   margin: 0 auto;
   background-color: lightgrey;
@@ -89,6 +98,7 @@ a{
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  align-content: space-around;
 
 }
 
@@ -98,9 +108,10 @@ a{
   border: solid 1px black;
   display: block;
   height: 100px;
-  max-width: 400px;
-  max-height: 200px;
-  flex-grow: 1;
+  width: 300px;
+  /* max-width: 400px; */
+  /* max-height: 200px; */
+  /* flex-grow: 1; */
   /* display: inline-block; */
 }
 
