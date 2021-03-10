@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Roboto;
+  /* display: grid; */
+  /* width: 100%; */
 }
 
 body{
@@ -51,7 +54,9 @@ section.contact{
   margin: 0 auto;
 
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
+  flex: 1 2 150px;
 }
 
 footer{
@@ -85,12 +90,12 @@ a{
   background-size: cover;
   z-index: 0;
 
-  min-width: 1000px;
+  min-width: 100%;
   min-height: 1000px;
-  max-height: 9000px;
+  max-height: 100%;
   position: absolute;
   display: flex;
-  flex: 2 2 1500px;
+  flex: 2 2 1500em;
 }
 
 .flexContainer{
@@ -103,9 +108,7 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* flex-wrap: wrap; */
   align-content: space-around;
-  /* flex-direction: row; */
 
   flex-flow: row wrap;
 
@@ -122,8 +125,4 @@ a{
   /* max-height: 200px; */
   /* flex-grow: 1; */
   /* display: inline-block; */
-}
-
-#flex .flexTest{
-  font-family: Roboto;
 }
