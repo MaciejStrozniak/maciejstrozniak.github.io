@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  background-color: #faf0e6;
+}
+
 header{
   font-family: Roboto;
   font-size: 23px;
@@ -34,7 +38,7 @@ section.contact{
   text-align: center;
   line-height: 1.5;
 
-  top: 150px;
+  top: 100px;
   width: 350px;
   /* height: 100px; */
   padding-top: 1px;
@@ -76,15 +80,15 @@ a{
 .sidePic{
   background-image: url("../Grafika/contactGraphic.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: cover;
   z-index: 0;
-  width: 3000px;
+
   min-width: 1000px;
   min-height: 1000px;
-  max-height: 4000px;
+  max-height: 9000px;
   position: absolute;
   display: flex;
-
+  flex: 2 2 1500px;
 }
 
 .flexContainer{
@@ -97,8 +101,11 @@ a{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-content: space-around;
+  /* flex-direction: row; */
+
+  flex-flow: row wrap;
 
 }
 
