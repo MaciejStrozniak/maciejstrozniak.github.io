@@ -221,7 +221,7 @@ rozmiaru okna przegladarki */
   max-height: 100%;
 
   position: absolute;
-  display: flex;
-  flex: 2 2 15em;
+  /* display: flex;
+  flex: 2 2 15em; */
 
 }
