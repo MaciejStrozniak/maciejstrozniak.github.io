@@ -5,7 +5,7 @@
 }
 
 /* Dla stworzenia kolorowych boxów na stronie \
-  i dla ich przesuwania w dowolne miejsce na tej stronie :D */
+  i dla ich przesuwania w dowolne miejsce na tej stronie */
 .box{
   width: 200px;
   height: 150px;
@@ -123,16 +123,18 @@ header{
   color: black;
   padding-top: 5px;
 
-  width: 100%;
-  height: 90px;
+  min-width: 100%;
+  min-height: 90px;
   margin: 0 auto;
   background-color: #E7970D;
   border-top: solid 4px black;
   border-bottom: solid 4px black;
 
   position: fixed;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
   z-index: 10;
+  flex-flow: wrap;
   /* visibility: hidden; */
 }
 
