@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: gray;
+
+  color: black;
+  text-transform: uppercase;
+  font-family: Roboto;
+}
+
+.grid{
+  display: grid;
+  border: solid 5px white;
+  min-width: auto;
+  min-height: 45em;
+  grid-gap: 5px;
+  grid-template-rows: repeat(3, 15fr);
+  grid-template-columns: repeat(3, minmax(150px, 15fr));
+}
+
+.responsiveBox{
+  min-width: 10fr;
+  min-height: 10fr;
+  /* max-width: 11fr; */
+  border: solid 4px black;
+  position: relative;
+  background-color: aquamarine;
+
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+
+.picture1{
+  background-image: url("../Grafika/contactGraphic.jpg");
+  height: auto;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  grid-column: 2 / 4;
+}
+
+.picture2{
+  background-image: url("../Grafika/mountain.jpg");
+  height: auto;
+  width: auto;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  grid-column: 1 / 3;
+}
