@@ -20,11 +20,7 @@
   min-width: 100px;
   max-width: auto;
   min-height: 400px;
-  // max-height: 100rem;
   max-height: 100em;
-  // overflow: auto;
-  // grid-gap: 15px;
-  /* grid-template: repeat(3, 150px) / repeat(2, 150fr); */
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 0.4fr 2fr 1fr;
   border: solid 5px black;
