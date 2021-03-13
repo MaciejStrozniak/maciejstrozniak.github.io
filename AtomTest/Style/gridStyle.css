@@ -10,76 +10,55 @@
 .flex{
   display: flex;
   justify-content: center;
+  // flex-wrap: wrap;
   align-items: center;
-}
-
-.grid{
-  background-color: red;
-  display: grid;
-  min-width: auto;
-  min-height: 1500px;
-  grid-template: 150px / 150px;
-  border: solid 4px black;
-
-}
-
-.box{
-  min-width: 45px;
-  min-height: 15px;
-  background-color: black;
-}
-
-/* *{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  background-color: gray;
-
-  color: black;
-  text-transform: uppercase;
-  font-family: Roboto;
+  flex: 1 6 150rem;
 }
 
 .grid{
   display: grid;
-  border: solid 5px white;
-  min-width: auto;
-  min-height: 45em;
-  grid-gap: 5px;
-  grid-template-rows: repeat(3, 15fr);
-  grid-template-columns: repeat(3, minmax(150px, 15fr));
+  min-width: 100px;
+  max-width: auto;
+  min-height: 400px;
+  // max-height: 100rem;
+  max-height: 100em;
+  // overflow: auto;
+  // grid-gap: 15px;
+  /* grid-template: repeat(3, 150px) / repeat(2, 150fr); */
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 0.4fr 2fr 1fr;
+  border: solid 5px black;
 }
 
-.responsiveBox{
-  min-width: 10fr;
-  min-height: 10fr;
-  /* max-width: 11fr; */
-  /* border: solid 4px black;
-  position: relative;
-  background-color: aquamarine;
+.gridHead {
+  font-weight: 800;
 
   display: flex;
   justify-content: center;
-  align-items: center
-}
-
-.picture1{
-  background-image: url("../Grafika/contactGraphic.jpg");
-  height: auto;
-  width: auto;
-  background-size: cover;
-  background-repeat: no-repeat;
-
-  grid-column: 2 / 4;
-}
-
-.picture2{
-  background-image: url("../Grafika/mountain.jpg");
-  height: auto;
-  width: auto;
-
-  background-size: cover;
-  background-repeat: no-repeat;
-
+  align-items: center;
+  max-height: 50px;
   grid-column: 1 / 3;
-} */
+  border: solid 15px white;
+  background-color: #c0c0c0;
+}
+
+.box{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-width: 40fr;
+  min-height: 4fr;
+  border: solid 15px white;
+  background-color: #c0c0c0;
+}
+
+.boxwide{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  max-height: 50px;
+  grid-column: 1 / 3;
+  border: solid 15px white;
+  background-color: #c0c0c0;
+}
