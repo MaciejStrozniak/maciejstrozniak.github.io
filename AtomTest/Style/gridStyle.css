@@ -58,3 +58,9 @@
   border: solid 15px white;
   background-color: #c0c0c0;
 }
+
+.image{
+  background-image: url("../Grafika/contactGraphic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
