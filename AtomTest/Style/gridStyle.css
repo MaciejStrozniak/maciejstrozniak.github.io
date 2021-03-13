@@ -1,6 +1,37 @@
 *{
   margin: 0;
   padding: 0;
+
+  font-family: Roboto;
+  text-transform: uppercase;
+
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid{
+  background-color: red;
+  display: grid;
+  min-width: auto;
+  min-height: 1500px;
+  grid-template: 150px / 150px;
+  border: solid 4px black;
+
+}
+
+.box{
+  min-width: 45px;
+  min-height: 15px;
+  background-color: black;
+}
+
+/* *{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background-color: gray;
 
@@ -23,7 +54,7 @@
   min-width: 10fr;
   min-height: 10fr;
   /* max-width: 11fr; */
-  border: solid 4px black;
+  /* border: solid 4px black;
   position: relative;
   background-color: aquamarine;
 
@@ -51,4 +82,4 @@
   background-repeat: no-repeat;
 
   grid-column: 1 / 3;
-}
+} */
